@@ -1,9 +1,11 @@
+import MapWithMarker from "./components/MapWithMarker"
 
 const App = () => {
 
   return (
     <div>
-      hello
+      <div className="text-center text-3xl font-bold py-[2rem]">Google Maps</div>
+      <MapWithMarker />
     </div>
   )
 }
